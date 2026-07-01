@@ -1,0 +1,12 @@
+{
+  "name": "braincity-medispark-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Apartment presale landing page with Vercel API and Google Sheets integration",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node local-server.js"
+  }
+}

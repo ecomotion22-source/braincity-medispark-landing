@@ -44,7 +44,7 @@ function sanitizeLead(payload, remoteAddress) {
     message: String(payload.message || "").trim(),
     privacy: Boolean(payload.privacy),
     createdAt: String(payload.createdAt || new Date().toISOString()),
-    leadSource: String(payload.leadSource || "랜딩페이지").trim(),
+    leadSource: String(payload.leadSource || "landing-page").trim(),
     triggerCall: Boolean(payload.triggerCall),
     remoteAddress,
   };
