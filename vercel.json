@@ -6,7 +6,23 @@
       "use": "@vercel/node"
     },
     {
-      "src": "(.*)\\.(html|css|js|jpg|jpeg|png|svg|webp|pdf)$",
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "styles.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "script.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.jpg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.pdf",
       "use": "@vercel/static"
     }
   ],
@@ -16,11 +32,11 @@
       "dest": "/api/$1"
     },
     {
-      "src": "/",
-      "dest": "/index.html"
+      "handle": "filesystem"
     },
     {
-      "handle": "filesystem"
+      "src": "/",
+      "dest": "/index.html"
     }
   ]
 }
