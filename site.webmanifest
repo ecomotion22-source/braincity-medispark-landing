@@ -1,0 +1,20 @@
+{
+  "name": "BRAIN CITY MEDIS PARK",
+  "short_name": "MEDIS PARK",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4ede1",
+  "theme_color": "#c9a56a",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

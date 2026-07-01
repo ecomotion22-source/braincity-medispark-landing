@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="BRAIN CITY MEDIS PARK favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f1e6"/>
+      <stop offset="100%" stop-color="#e6d3af"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8f6a30"/>
+      <stop offset="100%" stop-color="#d0af72"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <rect x="24" y="24" width="208" height="208" rx="44" fill="none" stroke="rgba(143,106,48,0.25)" stroke-width="4"/>
+  <path d="M78 178V82h28c18 0 30 12 30 28 0 10-4 18-12 23l18 45h-22l-15-38H98v38H78zm20-55h9c10 0 17-5 17-14 0-8-6-13-16-13H98v27z" fill="#3f2f18"/>
+  <path d="M156 178V82h20v76h39v20h-59z" fill="url(#gold)"/>
+  <path d="M182 66c8 0 14 6 14 14s-6 14-14 14-14-6-14-14 6-14 14-14zm0 6v16m-8-8h16" stroke="#b08b4f" stroke-width="4" stroke-linecap="round"/>
+</svg>

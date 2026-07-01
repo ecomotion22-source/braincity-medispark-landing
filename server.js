@@ -15,6 +15,7 @@ const GOOGLE_SCRIPT_URL =
 const MIME_TYPES = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
+  ".ico": "image/x-icon",
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
   ".js": "application/javascript; charset=utf-8",
@@ -23,7 +24,10 @@ const MIME_TYPES = {
   ".pdf": "application/pdf",
   ".png": "image/png",
   ".svg": "image/svg+xml",
+  ".txt": "text/plain; charset=utf-8",
   ".webp": "image/webp",
+  ".webmanifest": "application/manifest+json; charset=utf-8",
+  ".xml": "application/xml; charset=utf-8",
 };
 
 if (!IS_VERCEL) {

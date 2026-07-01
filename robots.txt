@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://braincity-medispark-landing-git-main-ecomotion22-8919s-projects.vercel.app/sitemap.xml
