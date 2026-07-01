@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Apartment presale landing page with Vercel API and Google Sheets integration",
+  "main": "server.js",
   "engines": {
     "node": "22.x"
   },
